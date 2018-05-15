@@ -1,5 +1,4 @@
 # rsd settings
 add-apt-repository universe
 apt-get update
-apt-get install -o APT::Install-Recommends=0 -y default-jdk-headless
-#apt-get install -o APT::Install-Suggests=0 -o APT::Install-Recommends=0 -y gradle
+apt-get install -o APT::Install-Recommends=0 -y openjdk-8-jre-headless=8u77-b03-3ubuntu3 openjdk-8-jdk-headless=8u77-b03-3ubuntu3 
